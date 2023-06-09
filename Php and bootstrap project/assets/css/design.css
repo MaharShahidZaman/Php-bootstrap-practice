@@ -1,0 +1,161 @@
+body,
+html {
+    overflow-x: hidden;
+
+}
+
+/* navbar */
+
+#top-nav{
+    background: rgb(231, 77, 30);
+    padding: 1% 8%;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    color: white;
+    font-size: 90%;
+    opacity: .8;
+}
+#top-container{
+    background-color: rgb(231, 77, 30);
+
+}
+
+#h1{
+    color: #fff;
+    font-size: 350%;
+}
+#p1{
+    color: #fff;
+    font-size: 120%;
+
+}
+@media screen and (max-width: 800px) {
+    #h1{
+        font-size: 250%;
+    }
+    #p1{
+        font-size: 70%;
+    
+    }
+    
+}
+#buton{
+    box-shadow: 5px 5px 5px solid #000;
+}
+#row{
+    background-color: rgba(243, 242, 242, 0.984);
+}
+#img{
+    height: 80%;
+}
+#size{
+    font-size: 250%;
+    color: rgb(231, 77, 30); 
+
+}
+@media screen and (max-width: 1000px) {
+    #card{
+        width: 15rem;
+    }
+    
+}
+#port{
+    background-color: rgba(243, 242, 242, 0.984);
+
+}
+#icon{
+   font-size: 16rem;
+   padding-bottom: 7px;
+}
+#iconf{
+    font-size: 13rem;
+}
+
+#sendbtn{
+    display: flex;
+    justify-content: end;
+}
+#w3schools{
+    text-decoration: none;
+}
+
+/* @media screen and (max-width: 800px) {
+#heading{
+    text-align: center;
+}
+} */
+
+/* carousel */
+
+.item {
+    margin: 0;
+    text-align: center;
+    /* background-color: rgba(243, 242, 242, 0.984); */
+    height: 400px;
+    padding-top: 10px;
+}
+
+.item h5 {
+    padding-top: 80px;
+    color: #000;
+    font-size: 25px;
+}
+.item p {
+    padding-bottom: 80px;
+    color: #000;
+    font-size: 20px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgb(212, 77, 28);
+    color: rgb(212, 77, 28);
+    width: 3%;
+    height: 10%;
+    /* border-radius: 50%; */
+    /* top: calc(40% - 15%) */
+    
+}
+.carousel-control-prev{
+    top: 75%;
+    left: 46.5%;
+}
+.carousel-control-next{
+    top: 75%;
+    right: 46.5%;
+}
+.carousel-indicators{
+    
+    /* justify-content: flex-end; */
+    top: auto;
+    bottom: 15px;
+   
+}
+
+#indicator{
+    background-color: rgb(212, 77, 28);
+    border-radius: 50%;
+    height: 1.8vmin;
+    width: 1.8vmin;
+    color: rgb(212, 77, 28);
+    border: 2px solid rgb(212, 77, 28); 
+}
+@media screen and (max-width: 500px) {
+
+    .carousel-control-prev,
+    .carousel-control-next{
+        width: 5%;
+        height: 6%;
+        
+    }
+    .carousel-control-prev{
+        top: 75%;
+        left: 44.5%;
+    }
+    .carousel-control-next{
+        top: 75%;
+        right: 44.5%;
+    }
+}

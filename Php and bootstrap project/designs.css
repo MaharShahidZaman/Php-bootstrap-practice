@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(97, 184, 227);
+}
+#about{
+    background-color: #fff;
+    color: green;
+}
+.nav-link:hover{
+    background-color: black;
+    border-radius: 10px;
+}
+#headc{
+    height: 420px;
+    background-color: rgb(7, 69, 29);
+}
+#crow{
+    padding-top: 10%;
+}
+#head1{
+padding-left: 100px;
+padding-top: 70px;
+margin-left: 60px;
+
+}
+#hh1{
+    color: #fff;
+    /* font-size: 3rem; */
+
+}
+#mynavbar{
+    background-color: rgb(7, 69, 29);
+}
+#headcontainer{
+    background-color: rgb(235, 70, 25);
+    height: 150px;
+   width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   align-items: flex-end;
+   color: #fff;
+   justify-content: center;
+}
+

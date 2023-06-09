@@ -1,0 +1,80 @@
+#mynavbar{
+    background-color: rgb(235, 70, 25);
+}
+.nav-link:hover{
+    background-color: black;
+    border-radius: 5px;
+}
+.frm{
+    background-image: url("image/bus1.jpg");
+    background-size: cover;
+   
+}
+#head{
+
+    color: #fff; 
+    /* color:rgb(235, 70, 25);  */
+    font-size: 380%;
+    background-color: rgb(7, 69, 29);;
+
+}
+#h11{
+    color: rgb(221, 27, 27);
+    font-size: 400%; 
+}
+#head2{
+    color: rgb(34, 26, 26); 
+}
+.colum{
+    background-color: rgb(47, 183, 228);
+    
+}
+.tbl{
+    background-image: url("image/bus3.jpg");
+    background-size: cover;
+}
+.item{
+    height: 10px;
+}
+.image{
+    width: 80%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-caption h5{
+    color:  white
+}
+.cf{
+    background-color: rgb(7, 69, 29);
+}
+
+/* form */
+
+
+#form1
+{
+    background-color: rgb(25, 152, 152);
+
+}
+
+#rtable{
+
+    background-color: rgb(19, 98, 132);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: rgb(7, 69, 29);
+    border-radius: 50px;
+   
+}
+.carousel-control-prev-icon{
+    margin-left: 165px;
+    
+}
+.carousel-control-next-icon{
+    margin-right: 165px;
+    
+    
+}
